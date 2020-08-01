@@ -1,4 +1,4 @@
-require'./stat'
+require'./lib/stat'
 
 class Team < Stat
   attr_reader :team_id,
@@ -6,7 +6,7 @@ class Team < Stat
               :teamname,
               :abbreviation,
               :link
-              
+
   def initialize(args)
     @team_id      = args[:team_id]
     @franchiseid  = args[:franchiseid]

@@ -1,4 +1,4 @@
-require'./stat'
+require'./lib/stat'
 
 class GameTeam < Stat
   attr_reader :game_id,
